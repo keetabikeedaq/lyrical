@@ -1,0 +1,40 @@
+pre {
+  color: palevioletred;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  input {
+    width: 100;
+  }
+  button {
+    float: inline-start;
+  }
+}
+
+body {
+  background-color: aliceblue;
+}
+
+input {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 10;
+  margin-left: 20;
+}
+
+h1 {
+  text-align: center;
+  color: palevioletred;
+}
+
+button {
+  background-color: pink;
+  border-radius: 5px;
+  padding: 10;
+  margin-left: 10;
+}
+
+input:focus {
+  width: 150;
+}
