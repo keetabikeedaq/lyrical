@@ -10,6 +10,9 @@ pre {
   button {
     float: inline-start;
   }
+  input:focus {
+  width: 120;
+}
 }
 
 body {
@@ -35,6 +38,4 @@ button {
   margin-left: 10;
 }
 
-input:focus {
-  width: 120;
-}
+
