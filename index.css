@@ -10,9 +10,6 @@ pre {
   button {
     float: inline-start;
   }
-  input:focus {
-  width: 120;
-}
 }
 
 body {
