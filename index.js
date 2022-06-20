@@ -17,8 +17,4 @@ document.oncontextmenu = function() {
   return false;
 }
 
-if(!inputSong.focus&& !inputArtist.focus){
-window.onkeydown = function() {
-    return false;
-  }
-}
+
