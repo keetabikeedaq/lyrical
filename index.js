@@ -11,3 +11,6 @@ function getLyrics()
     .catch(error =>alert("Lyrics not found", error));
     
 }
+document.oncontextmenu = function() {
+  return false;
+}
